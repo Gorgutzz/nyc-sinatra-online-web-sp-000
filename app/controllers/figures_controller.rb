@@ -42,3 +42,5 @@ get '/figures/new' do
    end
    redirect "/figures/#{@figure.id}"
  end
+
+end
